@@ -1,7 +1,6 @@
 //to print a matrix in spiral form or manner 
 // i for row and j for column
 
-import Backtracing.print1solnNqueen;
 
 public class Matrix {
     public static void printSpiral(int matrix[][]) {

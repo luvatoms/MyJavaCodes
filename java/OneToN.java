@@ -6,10 +6,12 @@ public class OneToN {
             Scanner sc = new Scanner(System.in);
             System.out.println("enter your value : ");
             int n = sc.nextInt();
-            printnum(n);
+            
             if (n == 143) {
+                System.out.println("hava a nice day");
                 return;
             }
+            printnum(n);
         }
     }
 
