@@ -1,6 +1,8 @@
 //to print a matrix in spiral form or manner 
 // i for row and j for column
 
+import Backtracing.print1solnNqueen;
+
 public class Matrix {
     public static void printSpiral(int matrix[][]) {
         int startRow = 0;
@@ -63,8 +65,7 @@ public class Matrix {
         return sum;
 
     }
-    //search in sorted matrix 
-    public static void main
+    // search in sorted matrix
 
     public static void main(String args[]) {
         int matrix[][] = {
@@ -72,7 +73,8 @@ public class Matrix {
                 { 5, 6, 7, 8 },
                 { 9, 10, 11, 12 },
                 { 13, 14, 15, 16 } };
-          System.out.print(diagonalSum(matrix));
+        System.out.println(diagonalSum(matrix));
+        printSpiral(matrix);
     }
 
 }
