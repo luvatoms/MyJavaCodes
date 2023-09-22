@@ -1,6 +1,6 @@
 public class bowtie {
     public static void main(String args[]) {
-        butterfly(15 );
+        butterfly(5 );
 
     }
 
