@@ -26,4 +26,22 @@
 //         ispalindrome(n);
 //     }
 
-// }
+public class temp {
+    public static void findlength(String name, int count, char arr[], int i) {
+        if (i == arr.length) {
+            System.out.println(count);
+            return;
+        }
+        findlength(name, count + 1, arr, i + 1);
+
+
+    }
+
+    public static void main(String[] args) {
+        String name = "shrut";
+        char arr[] = name.toCharArray();
+        int count = 0;
+       findlength(name, count, arr, 0);
+
+    }
+}
