@@ -17,7 +17,7 @@ public class ByArray {
         }
 
         // add
-        public static void add(int data) {
+        public static void add(int data) {//O(1)
             if (rear == size - 1) {
                 System.out.println("queue is full");
             }
@@ -25,7 +25,7 @@ public class ByArray {
             arr[rear] = data;
         }
 
-        public static int remove() {
+        public static int remove() {//O(n) tbhi hm use ni krte array ko bcoz it should use O(1)
             if (isEmpty()) {
                 System.out.println("empty queue");
                 return -1;
